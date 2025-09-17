@@ -145,7 +145,7 @@ HTML_TEMPLATE = """
                     <span class="faculty-text">ШЦТиИИ</span>
                 </div>
                 <div class="faculty-box" onclick="selectFaculty('Факультет 5', event)">
-                    <span class="faculty-text">ШНоЗ</span>
+                    <span class="faculty-text">ШАСиЭ</span>
                 </div>
             </div>
             <input type="hidden" name="faculty" id="faculty">
@@ -208,3 +208,4 @@ def index():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
